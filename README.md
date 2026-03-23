@@ -139,3 +139,17 @@ Simulated attacker behaviours including:
 - Improve AI-driven decision-making capabilities
 
 ---
+
+## How to Run - Setup Instructions
+
+1. Clone the repository
+2. Set up VirtualBox environment
+3. Deploy:
+   - Windows VM
+   - Linux VM
+   - Wazuh Server
+4. Configure Wazuh agents on endpoints
+5. Start Docker automation layer:
+   docker-compose up -d
+6. Generate test events (PowerShell / sudo misuse)
+7. Monitor alerts in Wazuh dashboard
